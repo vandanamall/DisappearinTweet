@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: #ccc;
+  }
+
+  .form-label {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .btn-primary {
+    letter-spacing: 1px;
+  }
+
+  .date-time-form {
+    text-align: right;
+    margin-right: 1rem;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .error-msg {
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .react-datetime-picker {
+    padding-left: 10px;
+  }
+
+  .counter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 12rem;
+    margin-left: 80%;
+    background: linear-gradient(25deg, #EBEDF3, #EBEDF3, #EBEDF3);
+  }
+
+  .counter .time {
+    margin-right: 0.3rem;
+  }
+
+  .counter .time-value {
+    padding: 1px;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    color: rgb(49, 49, 49) ;
+    line-height: 1;
+  }
+
+  .time-label {
+    text-align: center;
+    color: rgb(49, 49, 49) ;
+    font-size: 0.6rem;
+  }
