@@ -283,20 +283,20 @@ handleChange = event => {
     return (
         <Card className={classes.paper1}style={{height:"100%",width:"97%"}}>
      <div class="row">
-  <div style={{width:"7%",height:"50rem"}}>
-    <div  style={{width:"60%",height:"50rem"}}>
-      <p><img src={require('../src/assets/twitter.png')} style={{height:"2.5rem",width:"2.5rem",marginLeft:"40%",marginRight:"1%",marginTop:"10%"}} /></p>
-      <p><img src={require('../src/assets/home.png')} style={{height:"3rem",width:"3rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
-      <p><img src={require('../src/assets/discover.png')} style={{height:"3rem",width:"3rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
-      <p><img src={require('../src/assets/bell.png')} style={{height:"3rem",width:"3rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
-<p><img src={require('../src/assets/envelop.png')} style={{height:"2rem",width:"3rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
-      <p><img src={require('../src/assets/book.png')} style={{height:"3rem",width:"3rem",marginLeft:"40%",marginRight:"1%",marginTop:"30%"}} /></p>
-      <p><img src={require('../src/assets/share.png')} style={{height:"4rem",width:"4rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
+  <div style={{width:"7%",height:"100%"}}>
+    <div  style={{width:"60%",height:"100%"}}>
+      <p><img src={require('../src/assets/twitter.png')} style={{height:"2rem",width:"2rem",marginLeft:"40%",marginRight:"1%",marginTop:"10%"}} /></p>
+      <p><img src={require('../src/assets/home.png')} style={{height:"2rem",width:"2rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
+      <p><img src={require('../src/assets/discover.png')} style={{height:"2rem",width:"2rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
+      <p><img src={require('../src/assets/bell.png')} style={{height:"1.6rem",width:"1.8rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
+<p><img src={require('../src/assets/envelop.png')} style={{height:"1.5rem",width:"1.8rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
+      <p><img src={require('../src/assets/book.png')} style={{height:"1.7rem",width:"1.8rem",marginLeft:"40%",marginRight:"1%",marginTop:"30%"}} /></p>
+      <p><img src={require('../src/assets/share.png')} style={{height:"2rem",width:"2rem",marginLeft:"40%",marginRight:"1%",marginTop:"20%"}} /></p>
 </div>
   </div>
 
-  <div style={{width:"60%",height:"50rem"}}>
-    <div style={{width:"100%",height:"50rem",backgroundColor:"#EBEDF3"}}>
+  <div style={{width:"60%",height:"100%"}}>
+    <div style={{width:"100%",height:"100%",backgroundColor:"#EBEDF3"}}>
     <Card style={{padding:"0.5%"}}>
   <h3 style={{fontWeight:"bold"}}>Home</h3>
   </Card>
@@ -310,15 +310,13 @@ handleChange = event => {
           <TextField inputRef={element => (this.textRef = element)} 
            multiline
            padding="2%"
-           style={{fontSize:"3rem",border: 'none',marginTop:"1%"}}
-         
+           style={{fontFamily:"../src/assets/GlacialIndifference-Bold.otf" ,fontSize:"3rem",border: 'none',marginTop:"1%"}}
            className={classes.textField}
            placeholder="What's happenning?"
            rows="3"/>
            <br styles="clear:both" />     
            </div>
            <div className={classes.box1}> 
-      
            <div>
         <div className="date-time-form">
           {errorMsg && <p className="error-msg">{errorMsg}</p>}
@@ -358,7 +356,7 @@ handleChange = event => {
         </div>
       </div>
       </Card>
-      <Card className={classes.grid} style={{height:"40rem",marginTop:"1%"}}>
+      <Card className={classes.grid} style={{height:"100%",marginTop:"1%"}}>
 <TodoItems entries={this.state.items}
  delete={this.deleteItem}/>
 </Card>
@@ -394,8 +392,8 @@ handleChange = event => {
           marginLeft:"5%",
           marginRight:"5%",
           padding:"1%",
-          fontSize:'2vw',
-          fontWeight:'bold'}}
+          fontSize:'1.5vw',
+          fontFamily:'../src/assets/GlacialIndifference-Bold.otf'}}
         >  What's happening?
         
   <hr  style={{

@@ -98,8 +98,7 @@ const {itemtext}=this.props;
           height: '30%',
           width:'98%',
           marginLeft:'1%',
-          fontSize:'1vw',
-          fontWeight:'bold'}}
+          fontSize:'1vw'}}
         >{itemtext}</div>
         
         <div className="counter">
@@ -170,7 +169,7 @@ class TodoItems extends Component {
       }
     }
   }
-
+  
   saveStateToLocalStorage() {
     // for every item in React state
     for (let key in this.state) {
